@@ -18,7 +18,7 @@
     transition: filter 250ms, color 200ms;
   }
 
-  /&--primary {
+  &--primary {
     color: var(--color-white);
     background-image: linear-gradient(to right, var(--color-primary), var(--color-primary-rotate));
 
