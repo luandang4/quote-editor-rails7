@@ -11,19 +11,21 @@ Things you may want to cover:
 
 * Configuration
 
-* Database creation
+* Database creation if not use Docker
 ### 1. Install postgresql
 ```sudo apt-get update```
 
 ``` sudo apt-get install postgresql postgresql-contrib libpq-dev -y ```
 ### 2. Create supper user
 ``` sudo -u postgres createuser --interactive ```
+- Enter "root"
 ### 3. Create database
 ``` sudo -u postgres createdb quote_editor_db ```
 ### 4. Set password for supper user
 ``` sudo psql postgres ```
 ### 5. Set password for supper user
-``` postgres=# \password root -> enter: "password" ```
+``` postgres=# \password root ```
+- Enter: "password" , is password in database.yml
 ### 6. Create db for app
 ``` rails db:create ```
 
