@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+Quote.delete_all
+
+Quote.create!([
+    { name: 'Quote 1' },
+    { name: 'Quote 2' },
+    { name: 'Quote 3' },
+    { name: 'Quote 4' },
+    { name: 'Quote 5' },
+])
