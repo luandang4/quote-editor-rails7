@@ -30,7 +30,9 @@ Things you may want to cover:
 ``` rails db:create ```
 
 ``` rails db:migrate ```
-### 7. Run app
+### 7. Yarn
+```sudo npm install -g yarn```
+### 8. Run app
 ``` rails s ```
 
 or
@@ -38,3 +40,8 @@ or
 ```rails s -p [port]```
 
 with specified port
+
+```yarn  build --watch```
+
+```yarn build:css --watch```
+
