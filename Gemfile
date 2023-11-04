@@ -20,9 +20,11 @@ gem 'sentry-rails'
 gem 'mjml-rails'
 gem 'redis', '~> 5.0'
 gem 'redis-actionpack', '~> 5.3'
+gem 'devise', '~> 4.8.1'
 
 group :development, :test do
   gem 'debug', platforms: %i[ mri mingw x64_mingw ]
+  gem 'pry'
 end
 
 group :development do
