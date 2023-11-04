@@ -31,7 +31,11 @@ Things you may want to cover:
 
 ``` rails db:migrate ```
 ### 7. Yarn
-```sudo npm install -g yarn```
+```
+sudo npm install -g yarn
+
+bundle exec rake assets:precompile
+```
 ### 8. Run app
 ``` rails s ```
 

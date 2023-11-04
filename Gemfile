@@ -15,8 +15,11 @@ gem 'jbuilder'
 gem 'simple_form', '~> 5.1.0'
 gem 'tzinfo-data', platforms: %i[ mingw mswin x64_mingw jruby ]
 gem 'bootsnap', require: false
-gem "sentry-ruby"
-gem "sentry-rails"
+gem 'sentry-ruby'
+gem 'sentry-rails'
+gem 'mjml-rails'
+gem 'redis', '~> 5.0'
+gem 'redis-actionpack', '~> 5.3'
 
 group :development, :test do
   gem 'debug', platforms: %i[ mri mingw x64_mingw ]
